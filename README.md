@@ -58,7 +58,7 @@ Blue marker getting data from db.
 ![Map](/screenshot/Screenshot1.png?raw=true "Map")
 
 ### Input Coordinat
-Blue marker getting data from db.
+Try to input coordinat.
 ![Input coordinat](/screenshot/Screenshot2.png?raw=true "Input Coordinat")
 
 ### Track
