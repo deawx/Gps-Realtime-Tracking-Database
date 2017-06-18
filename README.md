@@ -1,6 +1,6 @@
 # Realtime GPS Tracking
 Sample project Realtime GPS Tracking menggunakan PHP + MySQL Database dan jQuery (update data secara realtime).
-Project ini menggunakan lib map yang telah dimodifikasi oleh Pubnub.
+Project ini menggunakan lib map yang telah dimodifikasi oleh PubNub.
 
 ## How to install
 
