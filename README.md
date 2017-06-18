@@ -7,6 +7,7 @@ Project ini menggunakan lib map yang telah dimodifikasi oleh Pubnub.
 ### Prerequisites
 * XAMPP or any Apache webserver
 * phpMyAdmin (included if you used XAMPP)
+* PubNub Key (publish and subscribe key), register here for free http://www.pubnub.com/get-started/
 
 ### Setup database
 Create database named **realtime-gps-tracking**
@@ -22,6 +23,16 @@ Create database connection string, file already **koneksi.php**.
     $db_name="realtime-gps-tracking";
     $connection = mysqli_connect($host,$username,$passwd,$db_name) or die("Error " . mysqli_error($connection));
 ?>
+```
+
+### PubNub key
+Put and change that **demo** key to your PubNub key.
+
+```
+var pubnub = new PubNub({
+        publishKey: 'demo', //put your PubNub publish key
+        subscribeKey: 'demo' //put to your PubNub subscribe key
+});
 ```
 
 ### Store master-app in localhost
