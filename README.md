@@ -22,7 +22,7 @@ C:\xampp\htdocs\realtime-gps-tracking\
 ```
 
 ### Setup database
-Create database named **realtime-gps-tracking**
+Create database named **realtime-gps-tracking**.
 Sample db are available in this directory, just import it.
 ```
 /sample db/realtime-gps-tracking.sql
