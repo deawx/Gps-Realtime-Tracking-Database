@@ -9,8 +9,24 @@ Project ini menggunakan lib map yang telah dimodifikasi oleh PubNub.
 * phpMyAdmin (included if you used XAMPP)
 * PubNub Key (publish and subscribe key), register here for free http://www.pubnub.com/get-started/
 
+### Store master-app in localhost
+Download this repo and store, if you're using windows and XAMPP installed, path are available in
+
+```
+C:\xampp\htdocs\
+```
+
+Put master-app folder in there, like
+```
+C:\xampp\htdocs\realtime-gps-tracking\
+```
+
 ### Setup database
 Create database named **realtime-gps-tracking**
+Sample db are available in this directory, just import it.
+```
+/sample db/realtime-gps-tracking.sql
+```
 
 ### Database connection string
 Create database connection string, file already **koneksi.php**.
@@ -31,20 +47,8 @@ Put and change that **demo** key to your PubNub key.
 ```
 var pubnub = new PubNub({
         publishKey: 'demo', //put your PubNub publish key
-        subscribeKey: 'demo' //put to your PubNub subscribe key
+        subscribeKey: 'demo' //put your PubNub subscribe key
 });
-```
-
-### Store master-app in localhost
-If you're using windows and XAMPP installed, path are available in
-
-```
-C:\xampp\htdocs\
-```
-
-Put master-app folder in there, like
-```
-C:\xampp\htdocs\realtime-gps-tracking\
 ```
 
 ## Here we go
