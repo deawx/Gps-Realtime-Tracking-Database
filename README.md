@@ -40,15 +40,15 @@ C:\xampp\htdocs\realtime-gps-tracking\
 
 ### Map are showing
 Blue marker getting data from db.
-[![CC0](https://github.com/TFK-Project/realtime-gps-tracking/screenshot/Screenshot1.png)]
+![Map](/screenshot/Screenshot1.png?raw=true "Map")
 
 ### Input Coordinat
 Blue marker getting data from db.
-[![CC0](https://github.com/TFK-Project/realtime-gps-tracking/screenshot/Screenshot2.png)]
+![Input coordinat](/screenshot/Screenshot2.png?raw=true "Input Coordinat")
 
 ### Track
 Blue marker will move, gotcha! track! :D
-[![CC0](https://github.com/TFK-Project/realtime-gps-tracking/screenshot/Screenshot2.png)]
+![Tracking](/screenshot/Screenshot3.png?raw=true "Tracking")
 
 
 ## License
