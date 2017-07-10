@@ -31,7 +31,7 @@ Sample db are available in this directory, just import it.
 ### Database connection string
 Create database connection string, file already **koneksi.php**.
 
-```
+```PHP
 <?php
     $host="localhost";
     $username="root";
@@ -44,7 +44,7 @@ Create database connection string, file already **koneksi.php**.
 ### PubNub key
 Put and change that **demo** key to your PubNub key.
 
-```
+```javascript
 var pubnub = new PubNub({
         publishKey: 'demo', //put your PubNub publish key
         subscribeKey: 'demo' //put your PubNub subscribe key
