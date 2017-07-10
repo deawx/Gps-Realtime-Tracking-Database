@@ -8,9 +8,7 @@ $longitude	= $_GET['long'];
 $tanggal_waktu= 'CURRENT_TIMESTAMP';
 
 $sql	= "INSERT INTO `tracking`(`id_gps`, `lat`, `long`, `tanggal_waktu`) VALUES ('$id_gps', $latitude, $longitude, $tanggal_waktu)";
-//kalau mau pakai mysqli
-//$eksekusi = mysqli_query($koneksi, $sql);
-//kalau mau pakai mysql
+
 $eksekusi = mysqli_query($connection, $sql);
 
 if($eksekusi){
