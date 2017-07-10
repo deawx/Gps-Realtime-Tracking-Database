@@ -10,7 +10,7 @@ Project ini menggunakan lib map yang telah dimodifikasi oleh PubNub.
 * PubNub Key (publish and subscribe key), register here for free http://www.pubnub.com/get-started/
 
 ### Store master-app in localhost
-Download this repo and store, if you're using windows and XAMPP installed, path are available in
+[Download this repo](https://github.com/TFK-Project/Gps-Realtime-Tracking-Database/archive/master.zip) and store, if you're using windows and XAMPP installed, path are available in
 
 ```
 C:\xampp\htdocs\
