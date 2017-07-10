@@ -62,7 +62,7 @@ Try to input coordinat.
 ![Input coordinat](/screenshot/Screenshot2.png?raw=true "Input Coordinat")
 
 ### Track
-Blue marker will move, gotcha! track! :D
+Blue marker will moved _without refreshing_ the page, gotcha! track! :D
 ![Tracking](/screenshot/Screenshot3.png?raw=true "Tracking")
 
 
